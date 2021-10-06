@@ -1,0 +1,28 @@
+.button {
+    border-style: none;
+    height: 40px;
+    padding: 6px 12px;
+    background: black;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    transition: box-shadow 0.6s ease;
+}
+
+.button:hover {
+    box-shadow: inset 200px 0 0 #00000055;
+}
+
+.button.blue {
+    background: #1FB6FF;
+}
+
+.button.green {
+    background: #13ce66;
+}
+
+.button.red {
+    background: #FF4949;
+}

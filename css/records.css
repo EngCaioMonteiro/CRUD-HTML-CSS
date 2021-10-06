@@ -1,0 +1,38 @@
+:root {
+    --table-height: 50px;
+}
+
+.records {
+    width: 100%;
+    text-align: left;
+    user-select: none;
+}
+
+.records th {
+    height: var(--table-height);
+    background: var(--primary-color);
+    padding-left: 20px;
+    font-size: 1.2rem;
+}
+
+.records td {
+    height: var(--table-height);
+    padding-left: 20px;
+}
+
+.records th:last-child,
+.records td:last-child {
+    padding: 0;
+    min-width: 140px;
+    text-align: center;
+}
+
+.records tr {
+    transition: ease-in-out 1s;
+}
+
+.records tr:hover{
+    background: var(--secondary-color);
+    transition: ease-in-out 0.3s;
+}
+
