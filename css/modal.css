@@ -84,5 +84,25 @@
     padding: 0 20px;
 }
 
+@media (max-width: 480px) {
+    .modal {
+        left: 90%;
+        transition: all 1s ease;
+    }
 
+    .modal-content {
+        margin: 0;
+        width: 100%;
+        position: fixed;
+    }
+
+    .modal.active {
+        left: 0;
+        
+    }
+
+    .modal-field {
+        width: 100%;
+    }
+}
 
